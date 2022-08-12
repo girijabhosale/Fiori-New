@@ -1,0 +1,56 @@
+body {
+    font-family: "Indie Flower", cursive;
+    font-family: "Merriweather Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  button {
+    background-color: chocolate;
+  }
+  
+  h1,
+  h3 {
+    color: chocolate;
+  }
+  
+  .left-col {
+    margin-left: 20%;
+  }
+  
+  label {
+    color: blue;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .book {
+    float: left;
+    width: 20%;
+  }
+  
+  .right-col {
+    margin-left: 20%;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
