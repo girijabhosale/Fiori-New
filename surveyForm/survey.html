@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Survey Form </title>
+    <link rel="stylesheet" href="surveyform.css">
+</head>
+<body>
+    <h1 > Survey Form </h1>
+    <div class="table">
+    <p>Let us Know how we Can Improve freeCodeCamp</p>
+
+        <table>
+            <tr>
+                <td class="left-col">
+                    <label for="Name">* Name :</label>
+                </td>
+                <td>          
+                    <input type="text" id="Name" required placeholder="Enter your name">
+                </td>
+            </tr>
+            <tr>
+                <td class="left-col">
+                    <label for="Email">* Email:</label>
+                </td>
+                <td class="right-col">
+                    <input type="text" id="Email" required placeholder="Enter your Email">
+                </td>
+            </tr>
+            <tr>
+                <td class="left-col">
+                    <label for="Age">* Age:</label>
+                </td>
+                <td class="right-col">
+                    <input type="number" id="Age" required placeholder="Age">
+                </td>
+            </tr>
+            <tr>
+                <td class="left-col">
+                    <label for="role">Which option describe your current role ?</label>
+                </td>
+                <td class="right-col">
+                    <select name="role" id="role">
+                        <option value="Student">Student</option>
+                        <option value="Teacher">Teacher</option>
+                        <option value="Engineer">Engineer</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="left-col">
+                    <label for="Freecodecamp"> How likely is that you would recomand Freecodecamp 
+                        to your friend ?</label>
+                </td>
+                <td class="right-col">
+                    <input type="checkbox" id="FCC" name="Definetly">
+                    <label for="FCC">Definetly</label>
+                    <br>
+    
+                    <input type="checkbox" id="FCC2" name="MayBe">
+                    <label for="FCC2"> May Be</label>
+                    <br>
+    
+                    <input type="checkbox" id="FCC3" name="NotSure">
+                    <label for="FCC3 ">Not Sure</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="left-col">
+                    <label for="FCC">What Do you like in FCC</label>
+                </td>
+                <td class="right-col">
+                    <select name="FCC" id="FCC">
+                        <option value="Code">Code</option>
+                        <option value="tips">tips</option>
+                        
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="left-col">
+                    <label for="Improvment"> Things should be improved in the future (check all that you apply):</label>
+                </td>
+                <td class="right-col">
+                    <input type="checkbox" id="FEP"name="Front-endProjects">
+                    <label for="FEP">Front-end projects</label>
+                    <br/>
+                    <input type="checkbox" id="BEP"name="Back-endProjects">
+                    <label for="BEP">Back-end Projects </label>
+                    <br/>
+                    <input type="checkbox" id="Dv" name="DataVisulization">
+                    <label for="DataVisulization">Data Visulation</label>
+                </td>
+            </tr>
+            
+        </table>
+    </div>
+    
+   
+</body>
+</html>
